@@ -1,0 +1,752 @@
+/* ================ Designed by Programmer Titu ================= */
+
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Josefin+Sans:wght@400;600;700&family=Montserrat&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@500&display=swap');
+
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Candal', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Part Start */
+.header_part {
+  background: url(../img/home_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  background: rgba(0, 0, 0, .3);
+}
+.overlay_hero {
+  background: rgba(0, 0, 0, .7);
+}
+.navbar-collapse {
+  margin-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding-left: 30px;
+  white-space: nowrap;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background: url(../img/hover.png) no-repeat;
+  background-position: bottom;
+  color: #147E90;
+}
+.btn {
+  border-radius: 50%;
+  border-color: #f8f8f8;
+}
+.btn-outline-success:hover {
+  background: #147e90;
+  transition: 0.3s;
+}
+
+/* Hero Area Start */
+.hero_area {
+  padding: 130px 0 10px;
+}
+.hero_heading h1 {
+  font-size: 54px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.hero_heading p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 2rem;
+  padding-bottom: 30px;
+}
+.hero_btn {
+  height: 50px;
+  width: 152px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.hero_btn a {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+.hero_btn:hover {
+  background: #147e90;
+  border: none;
+  transition: .3s;
+}
+.number p {
+  font-size: 24px;
+  color: #fff;
+  padding-top: 80px;
+}
+.page {
+  font-size: 16px;
+}
+/* Header Part End */
+
+
+/* About Us Part Start */
+.about_part {
+  padding: 55px 0;
+  background: #147e8f;
+}
+.about_head h2 {
+  font-size:32px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.about_head img {
+  margin-top: -30px;
+}
+.about_text p {
+  font-size: 14px;
+  color: #f1f1f1;
+  padding: 0 0 10px 0;
+}
+.about_btn {
+  height: 45px;
+  width: 132px;
+  background: #fff;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.about_btn a {
+  font-size: 18px;
+  color: #147e90;
+  font-family: 'Candal', sans-serif;
+  text-decoration: none;
+}
+.about_btn:hover {
+  background: #147;
+  transition: .3s;
+}
+/* About Us Part End */
+
+
+/* Our Service Part Start */
+.service_part {
+  padding: 80px 0;
+}
+.service_head h2 {
+  font-size: 32px;
+  color: #147e90;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.service_head img {
+  margin-top: -30px;
+}
+.service_con {
+  padding: 60px 0;
+}
+.service_title {
+  margin: -260px 0 0 0;
+}
+.service_title h5 {
+  font-size: 20px;
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.service_title p {
+  font-size: 14px;
+  color: #444444;
+  padding: 20px 45px;
+}
+.service_btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.service_btn a {
+  font-size: 16px;
+  color: #222;
+  font-style: italic;
+  text-decoration: none;
+}
+.service_img:hover .service_title h5,
+.service_img:hover a {
+  color: #147e90;
+  transition: 0.3s;
+}
+/* Our Service Part End */
+
+
+/* Goodwill Part Start */
+.goodwill_part {
+  background: url(../img/goodwill_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlay_goodwill {
+  background: rgba(0, 0, 0, .3);
+  padding: 30px 0 20px;
+}
+.goodwill_point h2 {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.goodwill_point p {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Goodwill Part End  */
+
+
+/* Portfolio Port Start */
+.portfolio_part {
+  padding: 50px 0;
+  background: #147e8f;
+}
+.portfolio_head h2 {
+  font-size: 32px;
+  color: #fff;
+  font-family: 'Candal', sans-serif;
+  font-weight: 700;
+}
+.portfolio_head img {
+  margin-top: -30px;
+}
+.port_con {
+  padding-top: 30px;
+}
+.port_img {
+  position: relative;
+}
+.port_img:hover .port_img_overlay {
+  opacity: 1;
+  transition: 0.3s;
+}
+.port_img_overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s;
+}
+.port_img_icon {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.port_img_icon a {
+  color: #147e90;
+}
+.port_img_text p {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  margin-left: -90px;
+  padding-top: 30px;
+}
+.port_button {
+  padding-top: 40px;
+}
+.port_btn {
+  height: 45px;
+  width: 132px;
+  background: #fff;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.port_btn a {
+  font-size: 18px;
+  color: #147e90;
+  font-family: 'Candal', sans-serif;
+  text-decoration: none;
+}
+.port_btn:hover {
+  background: #147;
+  transition: .3s;
+}
+/* Portfolio Port End */
+
+
+/* Our Team Part Start */
+.team_part {
+  padding: 80px 0;
+}
+.team_con {
+  padding-top: 50px;
+}
+.team_img {
+  position: relative;
+}
+.team_img_overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s;
+}
+.team_img:hover .team_img_overlay {
+  opacity: 1;
+  transition: 0.3s;
+}
+.team_icon {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 300px;
+}
+.team_icon:hover {
+  background: #d33472;
+  border: 1px solid #d33472;
+  transition: 0.3s;
+}
+.team_icon a {
+  color: #fff;
+  font-size: 16px;
+}
+.team_img:hover .team_con_inner h4 {
+  color: #fff;
+  padding-top: 60px;
+  transition: 0.3s;
+}
+.team_con_inner p {
+  color: #fff;
+}
+.team_button {
+  padding-top: 80px;
+}
+.team_btn {
+  height: 45px;
+  width: 132px;
+  background: #147e90;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.team_btn a {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Candal', sans-serif;
+  text-decoration: none;
+}
+.team_btn:hover {
+  background: #147;
+  transition: .3s;
+}
+/* Our Team Part End */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
+
+/* FAQ's Part Start */
+.faq_part {
+  padding: 80px 0;
+  background: #137d8f;
+}
+.faq_con {
+  padding-top: 50px;
+}
+.faq_head_3 h4,
+.faq_head_2 h4,
+.faq_head h4 {
+  width: 570px;
+  height: 58px;
+  background: #fff;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 24px;
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.faq_head i {
+  padding-left: 115px;
+}
+.faq_head_2 i {
+  padding-left: 125px;
+}
+.faq_head_3 i {
+  padding-left: 95px;
+}
+.down i {
+  padding-left: 65px;
+}
+.faq_head_3:hover h4,
+.faq_head_2:hover h4,
+.faq_head:hover h4 {
+  color: #147e90;
+  transition: 0.3s;
+}
+.faq_head_3 h4,
+.faq_head_2 h4 {
+  margin-bottom: 35px;
+}
+.faq_text {
+  width: 512px;
+  height: 190px;
+  background: #fff;
+  margin: 15px 28px;
+  padding: 25px;
+  font-size: 14px;
+  color: #444444;
+  font-family: 'Montserrat', sans-serif;
+} 
+/* FAQ's Part Start */
+
+
+/* Our Pricing Part Start */
+.pricing_part {
+  padding: 50px 0;
+  background: #f1f1f1;
+}
+.price_arrow {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #147e90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -70px;
+  margin-top: 150px;
+  position: absolute;
+}
+.price_arrow a {
+  padding: 10px;
+  position: relative;
+}
+.price_arrow i {
+  color: #147e90;
+}
+.price_arrow:hover {
+  background: #147;
+  border: 1px solid #147;
+  transition: 0.3s;
+}
+.pricing_head h4 {
+  height: 60px;
+  width: 370px;
+  background: #137d8f;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.best {
+  padding-left: 260px;
+  margin-bottom: -115px;
+}
+.pricing_price {
+  height: 250px;
+  width: 370px;
+  background: #fff;
+  margin-top: -10px;
+}
+.pricing_price h6 {
+  font-size: 20px;
+  color: #147e90;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.price {
+  font-size: 32px;
+}
+.pricing_price img {
+  padding-top: 26px;
+}
+.pricing_button {
+  padding-top: 30px;
+}
+.pricing_btn {
+  height: 42px;
+  width: 145px;
+  background: #147e8f;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.pricing_btn a {
+  font-size: 16px;
+  color: #feffff;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.pricing_text p {
+  padding-top: 40px;
+  font-size: 16px;
+  color: #999999;
+}
+.pricing_head_2 h4 {
+  font-size: 20px;
+  color: #147e90;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.pricing_check i {
+  padding: 0 10px 0 5px;
+}
+.pricing_check p {
+  padding-top: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #444444;
+}
+.price_icon a {
+ padding-right: 15px;
+ font-size: 32px;
+}
+.pricing_img {
+  padding-top: 20px;
+}
+.pricing_img img {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+}
+.pricing_img p {
+  padding-left: 15px;
+  font-size: 14px;
+  color: #444444;
+}
+.pricing_head_2 h6 {
+  text-align: right;
+  font-size: 16px;
+  color: #444444;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.pricing_con_btn {
+  height: 45px;
+  width: 370px;
+  background: #147e8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing_con_btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+.pricing_btn:hover,
+.pricing_con_btn:hover {
+  background: #147;
+  transition: .3s;
+}
+/* Our Pricing Part End */
+
+
+/* Testimonial Part Start */
+.testimonial_part {
+  padding: 80px 0;
+}
+.testi_con {
+  padding-top: 80px;
+}
+.testi_con_main {
+  background: #f8f8f8;
+}
+.testi_con_main img {
+  height: 100px;
+  width: 100px;
+  background: #147e90;
+  border-radius: 50%;
+  margin-top: -55px;
+}
+.testi_name h4 {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.testi_name h5 {
+  font-size: 16px;
+  color: #444444;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.testi_name p {
+  font-size: 14px;
+  color: #444444;
+  padding: 5px 20px 25px;
+}
+.testi_con_main:hover {
+  background: #f1f1f1;
+  transition: 0.3s;
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.testi_con_main:hover .testi_name h4 {
+  color: #147e90;
+  transition: 0.3s;
+}
+.testi_navigation {
+  padding-top: 20px;
+}
+/* Testimonial Part End */
+
+
+/* Footer Part Start */
+.footer_part {
+  padding-top: 15px;
+  background: #0b0b0d;
+  border-bottom: 1px solid #ffffff;
+}
+.footer_logo h5 {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding: 15px 0;
+}
+.footer_logo {
+  border-bottom: 1px solid #49494a;
+}
+.footer_contact {
+  border-right: 1px solid #49494a;
+}
+.br {
+  border-right: none;
+}
+.container {
+  padding: 25px 0;
+}
+.address_icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #147e8f;
+  align-items: center;
+  margin-left: 108px;
+}
+.address_icon i {
+  color: #fff;
+}
+.footer_address p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.footer_address a {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.footer_address a:hover {
+  color: #147E8F;
+  transition: 0.3s;
+}
+
+.footer_follow h5 {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding: 30px 0 20px;
+}
+.follow_icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.follow_icon i {
+  color: #444444;
+}
+.follow_icon:hover {
+  background: #147e8f;
+  transition: 0.3s;
+}
+.follow_icon:hover i {
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* CopyRight area */
+.copyright_area {
+  border-top: 1px solid #ffffff;
+  padding: 26px 0 10px;
+  background: #434343;
+}
+.copyright_area p {
+  font-size: 14px;
+  color: #f1f1f1;
+}
+.copyright_area .copy {
+  font-weight: 700;
+}
+.copyright_area .copy:hover {
+  color: #147E8F;
+  transition: 0.3s;
+}
+.copyright_area .design {
+  font-weight: 500;
+  font-style: italic;
+}
+.copyright_area .design:hover {
+  color: #147E8F;
+  font-style: italic;
+  transition: 0.3s;
+}
+
+/* Footer Part End */
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
